@@ -119,3 +119,18 @@ Default passwords configurable via environment variables, fallback to secure def
 5. **Error consistency**: Use domain exceptions, translate to HTTP responses in controllers
 
 When extending this system, follow the established patterns: create use cases for business logic, implement repository interfaces for data access, and maintain the clean dependency flow.
+
+### Interação com Usuários
+
+Considere o seguinte ao se comunicar com a equipe:
+
+- Os professores não são técnicos. Explique de forma simples e evite jargões de software.
+- Qualquer novo código deve ser fácil de manter e entender, mesmo sem experiência em programação.
+
+## Arquitetura do Programa
+
+- Os usuários do site são alunos e professores. Garanta uma experiência simples.
+- Não crie apps ou serviços adicionais.
+- Não crie ferramentas de linha de comando.
+- Não faça uma aplicação longa em um único arquivo. Sempre use uma estrutura de diretórios fácil de entender.
+- Use apenas HTML, CSS, Javascript e Java. Não utilize outras linguagens.
